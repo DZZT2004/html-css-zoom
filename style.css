@@ -1,0 +1,23 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+.contenitore{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 5px;
+    margin: 100px 100px 100px 40px;
+}
+
+.ingrandisci{
+    color: white;
+    display: inline-block;
+}
+
+.view{
+    color: white;
+    display: inline-block;
+}
