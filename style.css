@@ -5,6 +5,10 @@ body{
     overflow: hidden;
 }
 
+main{
+    margin-top: 0px;
+}
+
 .contenitore{
     display: flex;
     flex-wrap: wrap;
@@ -15,9 +19,41 @@ body{
 .ingrandisci{
     color: white;
     display: inline-block;
+    position: absolute;
+    left: 97.5vw;
+    bottom: 96vh;
+    background-color: grey;
+    padding: 3px 4px 2px 4px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
 }
 
 .view{
     color: white;
     display: inline-block;
+    position: absolute;
+    left: 92vw;
+    bottom: 96vh;
+    background-color: grey;
+    padding: 3px 4px 2px 4px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
 }
+
+.contenitore > div{
+    background-image: url(https://picsum.photos/250/125);
+    width: 250px;
+    height: 125px;
+}
+
+.contenitore > div > span{
+    color: white;
+    position: relative;
+    top: 106px;
+    background-color: rgba(128, 128, 128, 0.153);
+    padding: 3px 4px 2px 4px;
+    border: none;
+}
+
